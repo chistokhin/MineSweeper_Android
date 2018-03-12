@@ -1,0 +1,5 @@
+No specific algorithm is used for generating random position of mines. I have used Math.random function of the Math Class of Java which generates a set of random numbers in a bound when run in a loop. Then I have put the mines in the respective positions.
+
+            randomMinePos[i] = (int) (Math.random() * totalCol);
+
+
